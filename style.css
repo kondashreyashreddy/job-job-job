@@ -1,1 +1,77 @@
+/*Elements For Whole Site*/
 
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: cursive;
+
+}
+
+/*Elements For Text*/
+p {
+  font-family:cursive;
+}
+
+/*Elements For Images*/
+
+img {
+  width: 250px;
+  border-width: 5px;
+  border-color: aqua;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/*Elements For Headers*/
+
+h1 {
+  font-family:sans-serif;
+}
+
+h2 {
+  font-family:sans-serif;
+}
+
+h6 {
+  font-family:sans-serif;
+  opacity: 20%;
+}
+
+/*Elements For Hyperlinks*/
+a {
+  font-family: cursive;
+  margin: 10px;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color:blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+/*Classes*/
+.navbar {
+  margin:10px;
+}
+
+.link {
+  margin:2px;
+  color: lightgreen;
+}
+
+.shakinghands {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
